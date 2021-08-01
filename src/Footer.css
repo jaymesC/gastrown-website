@@ -1,0 +1,128 @@
+.foot {
+  border-top: 8px solid #ffdd40;
+  display: flex;
+  background-color:  #000;
+  font-size: 18px;
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-bottom: 100px;
+  
+}
+
+.link {
+  color:#ffdd40;;
+}
+
+.link:hover {
+  color: #ffdd40;
+}
+
+.links {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.NavLinks {
+  justify-content: space-between;
+  
+}
+
+.links:hover {
+  text-decoration: none;
+  color: #ffdd40;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.affiliate {
+  margin-left: 30px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.affiliate h2{
+  color: #ffdd40;
+}
+
+.affiliate p{
+  color: #fff;
+}
+
+.informations {
+  color: #fff;
+  margin-left: 14px;
+  font-family: Tahoma;
+}
+
+.social__icons {
+  margin-top: 30px;
+  margin-left: 700px;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.copy {
+  margin-top: -40px;
+}
+
+.copy p{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+@media screen and (max-width: 568px) {
+  .foot {
+  border-top: 4px solid #ffdd40;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.NavLinks {
+  margin-top: 10px;
+}
+
+.logo {
+  padding-bottom: 10px;
+}
+
+.footer{
+  margin-bottom: 5px;
+}
+
+.informations {
+  font-size: 16px;
+  font-family: serif;
+}
+
+.affiliate h2 {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.affiliate p{
+  font-size: 16px;
+}
+
+.social__icons {
+  margin-top: 10px;
+  margin-left: 120px;
+  font-size: 20px;
+  color: white;
+  
+}
+
+.copy{
+  padding-top: 20px;
+}
+}

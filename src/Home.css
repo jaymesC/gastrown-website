@@ -1,0 +1,395 @@
+
+
+.home__container {
+  background-color:#000;
+  overflow-x: hidden;
+}
+
+.writing {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 180px;
+  margin-right: 1px;
+  background-color: rgb(51, 48, 48);
+  padding-bottom: 240px;
+  
+}
+
+.statement p{
+font-family: 'Poppins';
+font-size: 16px;
+padding-bottom: 10px;
+color: #fff;
+}
+
+.service__tag {
+  text-align: center;
+}
+
+.service__tag p {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+/* .container__color {
+  background-color: rgb(37, 36, 36);
+} */
+
+.service__tag h1 {
+  color:#f5b921;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: transparent;
+  /* border: 1px solid red; */
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row1 {
+  border-top: 1px solid #fff;
+  border-bottom:1px solid #fff ;
+}
+
+.row1 h1{
+  color: #f5b921;
+}
+
+.row2 h1{
+  color: #f5b921;
+}
+
+
+
+
+
+.motto h1 {
+  margin-top: -30px;
+  padding-bottom: 20px;
+  font-size: 80px;
+  color: rgb(95, 106, 207);
+  font-weight: 100;
+}
+
+.motto h2 {
+  font-size: 40px;
+  font-family: 'Times New Roman';
+  color: #fff;
+}
+
+.upper__line{
+border-top: #f5b921 5px solid;
+
+}
+
+.technology {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 180px;
+  margin-right: 1px;
+  background-color:rgb(51, 48, 48);
+  padding-bottom: 240px;
+}
+
+.technology p{
+  font-family: Tahoma;
+  font-size: 20px;
+  color: #fff;
+}
+
+.believe {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: 10px;
+  background-color: #000;
+  color: #fff;
+  margin-right: 1px;
+}
+
+.believe h3 {
+  text-align: center;
+  color: #f5b921;
+}
+
+.believe p {
+  text-align: center;
+
+}
+
+.discover {
+  background-color: #000;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  margin-right: 1px;
+}
+
+.discover h1{
+color: #fff;
+font-weight: 300;
+}
+
+.discover p{
+  color:#f5b921;
+  font-family: Tahoma;
+  padding-bottom: 10px;
+}
+
+.success {
+  padding-top: 90px;
+  padding-bottom: 150px;
+  margin-right: 1px;
+}
+
+
+
+.success h1 {
+  color: rgb(31, 81, 86);
+  background:transparent;
+  text-align: center;
+  font-weight: 200;
+   margin-top: -20px;
+}
+
+.success p {
+  text-align: center;
+  font-family: Tahoma;
+}
+
+.success h2 {
+  color: #000;
+  background-color: #afafaf;
+  font-weight: 100px;
+}
+
+#circle {
+    background: #f5b921;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 90px;
+}
+
+
+.mobility {
+  margin-top:  60px;
+  padding: 0 10px;
+  
+}
+
+.mobility h2 {
+  text-align: center;
+  background: transparent;
+}
+
+.mobility button {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+
+#btn1{
+margin-top: 50px;
+}
+
+#btn2 {
+  margin-top: 20px;
+}
+
+#btn3 {
+  margin-top: 40px;
+}
+
+#btn4 {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 568px) {
+  .writing {
+    padding-right: 10px;
+    padding-left: 3px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-right: 0px;
+    margin-left: 1px;
+  }
+
+  .statement p{
+    font-size: 14px;
+font-family: Tahoma;
+}
+
+.square{
+  display: none;
+}
+
+#circle{
+  display: none;
+}
+
+.upper__line{
+border-top: #f5b921 1px solid;
+
+}
+
+
+.service__tag h1 {
+  color:#f5b921;
+  padding-bottom: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+
+.card h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.row1 {
+  border-bottom: none;
+}
+
+.card {
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  /* border: 1px solid red; */
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.motto h1 {
+   padding-top: 20px;
+   font-size: 32px;
+ }
+
+ .motto h2 {
+   font-size: 22px;
+   margin-top: -20px;
+ }
+
+ .believe {
+   padding-top: 50px;
+   padding-bottom: 40px;
+ }
+
+ .believe p {
+   font-family: 'Tohoma';
+ }
+
+ .believe h3 {
+   padding-top: 10px;
+ }
+
+ .technology{
+   padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 40px;
+ }
+
+ .technology h2 {
+   font-size: 22px;
+ }
+
+  .technology p{
+    font-size: 14px;
+font-family: Tahoma;
+}
+
+.discover {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.discover h1 {
+  font-size: 36px;
+}
+
+.discover p {
+  font-size: 14px;
+  font-family: Tahoma;
+}
+
+ button {
+  padding: 7px;
+  font-size: 14px;
+}
+
+.success {
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.success h1 {
+  font-size: 34px;
+}
+
+.success p {
+  font-size: 14px;
+  font-family: Tahoma;
+}
+
+.mobility {
+  margin-top: 0;
+  padding: 0 0px;
+}
+
+.mobility h2 {
+  font-size: 25px;
+}
+
+.mobility button {
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-bottom: 15px;
+}
+
+#top {
+  padding-top: 50px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+#top2{
+  padding-top: 30px;
+}
+
+#top5{
+padding-top: 10px;
+}
+
+#tpp p {
+  font-weight: 500;
+}
+
+
+
+#tpp {
+  padding-top: 70px;
+}
+
+#btn2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#btn3 {
+  margin-top: 10px;
+}
+
+#btn4 {
+  margin-top: 10px;
+}
+}

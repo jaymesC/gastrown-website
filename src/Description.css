@@ -1,0 +1,147 @@
+
+
+
+.spinner-box {
+  width:300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.solar-system {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0f0e0ea5;
+}
+
+.earth-orbit {
+  width: 250px;
+  height: 250px;
+  animation: spin 12s linear 0s infinite;
+}
+
+.venus-orbit {
+  width: 120px;
+  height: 120px;
+  animation: spin 7.4s linear 0s infinite;
+}
+
+.planet {
+  position: relative;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.sun {
+  width: 35px;
+  height:35px;
+  border-radius: 50%;
+  background-color: #ffab91;
+}
+
+@keyframes spin {
+  from{transform: rotate(0);}
+  to{transform: rotate(359deg);}
+}
+
+.square {
+  height: 100px;
+  width: 30px;
+  background-color:#f5b921;
+}
+
+.desc {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 200px;
+  padding-top: 50px;
+  
+}
+
+.contain {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.write__up h1 {
+  font-size: 90px;
+  color: #fff;
+}
+
+.write__up h3 {
+  font-size: 30px;
+  color: #f5b921;
+}
+
+button {
+  background-color: rgb(236, 34, 34);
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  font-family: serif;
+  letter-spacing: 2px;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+
+  .desc {
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+.spinner-box {
+  display: none;
+}
+
+.desc {
+  padding-bottom: 50px;
+}
+
+.write__up h1 {
+  font-size: 50px;
+}
+
+.write__up h3 {
+  font-size: 16px;
+
+}
+
+button {
+  padding: 10px 10px;
+}
+}
+
+
+
+
+
+
+
+

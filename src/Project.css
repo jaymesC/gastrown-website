@@ -1,0 +1,125 @@
+
+
+.write h1{
+  margin-top: 90px;
+  color: #fff;
+  font-size: 105px;
+  margin-left: 10px;
+  font-family: Tahoma;
+}
+
+.write p{
+  color: #f5b921;
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+.product {
+  padding-top: 40px;
+  padding-bottom: 180px;
+  padding-left: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.product h4 {
+  font-size: 30px;
+}
+
+.product h2 {
+  background-color: #000;
+  font-size: 25px;
+  color: #fff;
+}
+
+.product p {
+  font-size: 18px;
+  font-family: serif;
+  color: #fff;
+  font-family: "Tahoma";
+}
+
+#pic1{
+  margin-left: 200px;
+}
+
+.compact {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.compact h2 {
+  margin-right: 1px;
+}
+
+.properties {
+  margin-top: -150px;
+  background-color: #000;
+  color: #fff;
+}
+
+.properties img{
+  margin-left: 120px;
+}
+
+#image {
+  margin-left: 190px;
+
+}
+
+#image2 {
+  margin-left: 0px;
+}Z|
+
+.properties h5 {
+  text-align: center;
+  font-family: serif;
+}
+
+.properties p {
+  text-align: center;
+  font-family: 'Tahoma';
+}
+
+@media screen and (max-width: 568px) {
+.write h1{
+  
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+#picture {
+padding-top: 10px;
+  width: 200px;
+   height: auto;
+}
+
+.product h4 {
+  font-size: 24px;
+}
+
+.compact {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.compact h2 {
+  font-size: 20px;
+}
+
+.product p {
+  font-size: 14px;
+}
+#image {
+  margin-left: 150px;
+
+}
+
+#pic1{
+  margin-left: 165px;
+}
+
+#image2 {
+  margin-left: 160px;
+}
+}
